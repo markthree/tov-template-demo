@@ -1,12 +1,6 @@
 <template>
-	<Navigation />
-	<div class="w-screen flex flex-col items-center justify-center">
-		<router-view v-slot="{ Component }">
-			<transition name="fade" mode="out-in">
-				<component :is="Component" />
-			</transition>
-		</router-view>
-	</div>
+	<router-view />
+	<H5Navigation></H5Navigation>
 </template>
 
 <style>
