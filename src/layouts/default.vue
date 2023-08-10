@@ -1,6 +1,6 @@
 <template>
 	<router-view />
-	<H5Navigation></H5Navigation>
+	<H5Navigation v-if="!$route.meta.disableTabbar"></H5Navigation>
 </template>
 
 <style>

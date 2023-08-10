@@ -20,7 +20,8 @@ const id = router.currentRoute.value.params.id
 <route lang="json">
 {
 	"meta": {
-		"layout": "content"
+		"layout": "content",
+		"disableTabbar": true
 	}
 }
 </route>
